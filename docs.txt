@@ -1,0 +1,53 @@
+Problem size: 
+
+Initial baseline Performance: 
+
+Strip mining with 1 block  : 
+
+Strip mining with 2 blocks : 
+
+Strip mining with 4 blocks : 
+
+Problem size: 1 << 14
+
+Initial baseline Performance: Average Runtime: 0.342309, performance: 1.5684 GFLOPS
+
+Strip mining with 1 block  : Average Runtime: 0.172086, performance: 3.11991 GFLOPS
+
+Strip mining with 2 blocks : Average Runtime: 0.178516, performance: 3.00838 GFLOPS
+
+Strip mining with 4 blocks : Average Runtime: 0.179151, performance: 2.99708 GFLOPS
+
+
+
+
+
+Problem size: 1 << 15
+
+Initial baseline Performance: Average Runtime: 0.340361, performance: 1.57736 GFLOPS
+
+Strip mining with 1 block  : Average Runtime: 0.172149, performance: 3.11871 GFLOPS
+
+Strip mining with 2 blocks : Average Runtime: 0.177237, performance: 3.02947 GFLOPS
+
+Strip mining with 4 blocks : Average Runtime: 0.177237, performance: 3.02947 GFLOPS
+
+
+float:
+
+
+Problem size: 16384, Matrix size: 1024 MiB
+
+Initial baseline Performance: Average Runtime: 0.334282, performance: 1.60604 GFLOPS
+
+Strip mining with 1 block  : 
+
+Strip mining with 2 blocks : 
+
+Strip mining with 4 blocks : 
+
+
+
+simd pragma and parallel: Average Runtime: 0.0750872, performance: 7.182 GFLOPS
+	on power: Average Runtime: 0.0596244, performance: 9.03079 GFLOPS
+	
