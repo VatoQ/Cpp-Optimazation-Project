@@ -14,7 +14,7 @@ constexpr unsigned N_BLOCKS = 2; // For my Laptop, 1 seems the optimal amount of
 constexpr unsigned long long TILE = 64; //4 * N_BLOCKS;
 constexpr size_t BLOCK_SIZE = 32;
 
-
+// optimized function
 void multiply(float* __restrict__ a, float* __restrict__ b, float* __restrict__ result, unsigned long long n)
 {
     #ifndef STRIP_MINING   
