@@ -5,7 +5,7 @@ LDFLAGS := -fopenmp
 
 TARGET := main
 
-SRCS = main.cpp
+SRCS = batch_multiplication.cpp
 
 OBJS := $(SRCS:.cpp=.o)
 
